@@ -1,83 +1,228 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link href="styles.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="styles.css" rel="stylesheet" />
     <title>blogs | Omkar Joshi</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navigation container">
-        <div class="nav-brand"><a href="/">Omkar Joshi</a></div>
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-                <a class="link" href="/">Home</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link " href="/project.html">Projects</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link link-active" href="/blogs.html">Blogs</a>
-            </li>
-        </ul>
+      <div class="nav-brand"><a href="/">Omkar Joshi</a></div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="/">Home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/project.html">Projects</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active" href="/blogs.html">Blogs</a>
+        </li>
+      </ul>
     </nav>
 
     <header class="hero">
-        <h1 class="hero-heading">read my <span class="heading-inverted">blogs</span></h1>
+      <h1 class="hero-heading">
+        read my <span class="heading-inverted">blogs</span>
+      </h1>
     </header>
 
     <ul class="list-non-bullet">
+      <li>
+        <article class="showcase-list container container-center">
+          <h1>
+            Mastering State Management in React: A Comprehensive Guide to
+            useState Hook
+          </h1>
+          <small>Jan, 2023</small>
+          <p>
+            React Hooks are a powerful and easy-to-use feature that allows
+            developers to write and manage state and side-effects in functional
+            components. In this blog series, we’ll take a deep dive into the…
+          </p>
 
-        
+          <a
+            class="link link-primary"
+            href="https://medium.com/@devwithomkar/react-hooks-part-1-usestate-f5e1fd5e14c9?source=friends_link&sk=44669ed22ba10368176d184cdcb944d5"
+            >Read More</a
+          >
+        </article>
+      </li>
 
-        <li>
-            <article class="showcase-list container container-center ">
-                <h1>React Hooks (Part-1) - useState</h1>
-                <small>Aug, 2021</small>
-                <p>Stuck at hooks? Read the blog to understand hooks and useState</p>
-    
-                <a class="link link-primary" href="https://omkarjoshi.hashnode.dev/react-hooks-part1">Read More</a>
-                 </article>
-            
-        </li>
+      <li>
+        <article class="showcase-list container container-center">
+          <h1>
+            Optimizing React Components: An In-Depth Exploration of useEffect
+            Hook
+          </h1>
+          <small>Jan, 2023</small>
+          <p>
+            The useEffect hook is one of the most powerful and versatile tools
+            in the React developer's toolbox. It allows you to manage
+            side-effects in your functional components and keep your code clean…
+          </p>
 
-        <li>
-            <article class="showcase-list container container-center ">
-                <h1>5 Youtubers Who Add Value In My Life..</h1>
-            <small>Sept, 2021</small>
-            <p>Here are some youtubers with great content and add immense value in my life.</p>
+          <a
+            class="link link-primary"
+            href="https://medium.com/@devwithomkar/react-hooks-part-2-useeffect-22729aa0e4ee?source=friends_link&sk=3e34db494f217ab91371bfd25a481e15"
+            >Read More</a
+          >
+        </article>
+      </li>
 
-            <a class="link link-primary" href="https://omkarjoshi.hashnode.dev/5-youtubers-who-add-value-in-my-life">Read More</a>
-            </article>
-            
-        </li>
+      <li>
+        <article class="showcase-list container container-center">
+          <h1>
+            Streamlining State Sharing in React: Demystifying useContext Hook
+          </h1>
+          <small>Feb, 2023</small>
+          <p>
+            Context API Which helps to unload the useState prop drilling in
+            React. useContext, createContext are explained. Why are good instead
+            of Redux?
+          </p>
 
+          <a
+            class="link link-primary"
+            href="https://medium.com/@devwithomkar/react-hooks-part-3-usecontext-and-context-in-react-6d7b23946231?source=friends_link&sk=4f90c128bc2951f6b4cfed92705110be"
+            >Read More</a
+          >
+        </article>
+      </li>
+
+      <li>
+        <article class="showcase-list container container-center">
+          <h1>Defining ‘undefined’ in the console</h1>
+          <small>Feb, 2023</small>
+          <p>
+            If you used the browser console and tried to print something in it
+            using console.log(), you will get a extra output undefined. Ever
+            wondered why this is happening? We are just printing out the, then…
+          </p>
+
+          <a
+            class="link link-primary"
+            href="https://medium.com/@devwithomkar/defining-undefined-in-the-console-70f65e3da3c4?source=friends_link&sk=cbf7088a44ab93e91729a968b9b0b2e1"
+            >Read More</a
+          >
+        </article>
+      </li>
+
+      <li>
+        <article class="showcase-list container container-center">
+          <h1>
+            Creating Reusable and Scalable Components in React: Unleashing the
+            Potential of Custom Hooks
+          </h1>
+          <small>Mar, 2023</small>
+          <p>
+            Hey, fellow developers! 🤘 It’s Omkar, the front-end dev guy, back
+            again with another exciting addition to my React Hook series. 🔥
+            This time, we’re diving deep into custom hooks! Yes, you heard it…
+          </p>
+
+          <a
+            class="link link-primary"
+            href="https://medium.com/@devwithomkar/react-hooks-part-4-building-custom-hooks-da70ca372a37?source=friends_link&sk=4b3ccb052958620ced17ba2a73f01cbc"
+            >Read More</a
+          >
+        </article>
+      </li>
+
+      <li>
+        <article class="showcase-list container container-center">
+          <h1>Ways To Improve Performance of React App</h1>
+          <small>Apr, 2021</small>
+          <p>
+            Are you tired of slow and unresponsive React apps? Don’t worry,
+            you’re not alone. Performance is a critical factor that can make or
+            break a user’s experience with your app. Luckily, there are various…
+          </p>
+
+          <a
+            class="link link-primary"
+            href="https://medium.com/@devwithomkar/ways-to-improve-performance-of-react-app-605bfba720?source=friends_link&sk=32b99dc5f8e2eb8ef9bebcc6cf600be8"
+            >Read More</a
+          >
+        </article>
+      </li>
+
+      <li>
+        <article class="showcase-list container container-center">
+          <h1>
+            Efficient State Management in React: Harnessing the Power of
+            useReducer Hook
+          </h1>
+          <small>Jul, 2021</small>
+          <p>
+            Hello, fellow developers! 🤘 I’m Omkar, the front-end developer, and
+            I’m thrilled to bring you another exciting installment of my React
+            Hook series. 🔥 In this edition, we’re going to explore the…
+          </p>
+
+          <a
+            class="link link-primary"
+            href="https://medium.com/@devwithomkar/demystifying-the-usereducer-hook-in-react-react-hooks-part-4-1dd9dba65c31?source=friends_link&sk=1b4ee2b75c9d86145a911498a16a9009"
+            >Read More</a
+          >
+        </article>
+      </li>
+
+      <li>
+        <article class="showcase-list container container-center">
+          <h1>
+            Supercharging React State Management: Harnessing the Power of
+            useContext and useReducer
+          </h1>
+          <small>Aug, 2023</small>
+          <p>
+            In the dynamic world of React development, effective state
+            management is a crucial skill. As your app grows in complexity,
+            maintaining a clean and efficient way to manage state becomes
+            essential. In…
+          </p>
+
+          <a
+            class="link link-primary"
+            href="https://medium.com/@devwithomkar/supercharging-react-state-management-harnessing-the-power-of-usecontext-and-usereducer-57d29132cb81?source=friends_link&sk=11a97afafd15b309fbd362fec2ee7b88"
+            >Read More</a
+          >
+        </article>
+      </li>
     </ul>
 
     <footer class="footer">
-        <div class="footer-header">Social Media </div>
-        <small>connect with me..</small>
-        <ul class="social-links list-non-bullet">
-            <li class="list-item-inline">
-                <a class="link" href="https://github.com/joshi-omkar"  target="_blank">
-                    <i class="fab fa-github fa-2x"></i>
-                </a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="https://twitter.com/ye_joshya"  target="_blank">
-                    <i class="fab fa-twitter fa-2x"></i>
-                </a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="https://linkedin.com/in/joshiomkar04"  target="_blank">
-                    <i class="fab fa-linkedin-in fa-2x"></i>
-                </a>
-            </li>
-            
-        </ul>
+      <div class="footer-header">Social Media</div>
+      <small>connect with me..</small>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/joshi-omkar" target="_blank">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/ye_joshya" target="_blank">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://linkedin.com/in/joshiomkar04"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin-in fa-2x"></i>
+          </a>
+        </li>
+      </ul>
     </footer>
-    
-
-</body>
+  </body>
 </html>
